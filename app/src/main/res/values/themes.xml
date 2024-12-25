@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KidDrawingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+<!--    android:layout_width="32dp"-->
+<!--    android:layout_height="32dp"-->
+<!--    android:padding="4dp"-->
+<!--    android:src="@drawable/panel_normal"-->
+<!--    android:tag="@color/yellow"-->
+<!--    android:onClick="paintClicked"-->
+<!--    android:background="@color/yellow"-->
+    <style name="colorPanelBtn">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:src">@drawable/panel_normal</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:onClick">paintClicked</item>
+    </style>
+
+    <style name="Theme.KidDrawingApp" parent="Base.Theme.KidDrawingApp" />
+</resources>
